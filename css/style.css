@@ -97,7 +97,7 @@ su altura sera de 60rem. Agrega luego este codigo:
 
 
 /* crea la clase header__texto: alinea el texto al centro, dale el color a las letras usando la variable (--blanco), y con un margin-top de 15rem*/
-.header_texto{
+.header__texto{
     text-align: center;
     color: var(--blanco);
     margin-top: 15rem;
@@ -124,16 +124,28 @@ su altura sera de 60rem. Agrega luego este codigo:
     font-weight: 700;
 }
 /* crea la clase navegacion: usa un display flex, con un gap de 2rem*/
-
-
+.navegacion{
+    display: flex;
+    gap: 2rem;
+}
 
 /* crea la clase navegacion__enlace: usa un display block, alinea el texto al centro, y cambia el tamaño de la fuente a 1.8rem y al color de la letra en blanco*/
+.navegacion_enlace{
+    display: block;
+    text-align: center;
+    font-size: 1.8rem;
+    color: var(--blanco);
+}
 
 
 /* crea la clase contenido-principal: el display grid, y usa el template-columns para pasar 2 parametros, uno de 1fr y otro de 0.5fr.
 dale un gap a las columnas de 4rem
 */
-
+.contenedor-principal{
+    display: grid;
+    grid-template-columns:1fr 0.5fr ;
+    column-gap: 4rem;
+}
 
 .entrada {
     border-bottom: 1px solid var(--gris);

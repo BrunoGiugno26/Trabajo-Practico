@@ -23,13 +23,13 @@
                 <h1 class="logo__nombre no-margin centrar-texto">BarberShop</h1><!-- colocar dentro, una etiqueta h1 que diga BarberShop, darle las clases logo__nombre , no margin y centrar texto -->
 
                 <nav class="navegacion">  <!-- darle a este nav la clase "navegacion" -->
-                <a class="navegacion-enlace" href="nosotros.html">Nosotros</a>
-                <a class="navegacion-enlace" href="cursos.html">Cursos</a>
-                <a class="navegacion-enlace" href="contacto.html">Contacto</a> <!-- crear 3 etiquetas "a". Dentro, cada una tendran su texto de "nosotros","cursos", "contacto". Cada una debe redireccionar a nosotros.html,cursos.html y contacto.html respectivamente Darle las clases navegacion_enlace -->
+                <a class="navegacion_enlace" href="nosotros.html">Nosotros</a>
+                <a class="navegacion_enlace" href="cursos.html">Cursos</a>
+                <a class="navegacion_enlace" href="contacto.html">Contacto</a> <!-- crear 3 etiquetas "a". Dentro, cada una tendran su texto de "nosotros","cursos", "contacto". Cada una debe redireccionar a nosotros.html,cursos.html y contacto.html respectivamente Darle las clases navegacion_enlace -->
                 </nav>
             </div>
         </div>
-        <div class="header_texto"> <!-- darle a este div la clase "header__texto" -->
+        <div class="header__texto"> <!-- darle a este div la clase "header__texto" -->
         <h2 class="no-margin">Cuidar tu imagen es nuestro trabajo</h2>    <!-- crear un h2 que diga "Cuidar tu imagen es nuestro trabajo" y tenga la class no-margin -->
         <p class="no-margin">Dejalo en manos de Profesionales</p>    <!-- crear un p que diga "Dejalo en manos de profesionales" y tenga la class no-margin -->
         </div>
@@ -37,18 +37,28 @@
 
     <div class="contenedor contenedor-principal"> <!-- darle a este div la clase "contenedor contenedor-principal" -->
       <main class="blog">  <!-- crear el main, con la clase blog -->
-            <h3>Nuestras Habilidades</h3> <!-- coloca este h3 debajo del main -->
+            <h3>Nuestras Habilidades</h3>  <!-- coloca este h3 debajo del main -->
+            
           <article class="entrada">
-            <div class="entrada-imagen">
+            <div class="entrada__imagen">
                 <img class="img-entrada" src="/img/img1.jpg" alt="">
             </div>
-            <div class="entrada-contenido">
+            <div class="entrada__contenido">
                 <h4>Cortes de cabello</h4>
                 <p>Tenemos un amplio catalogo de imagenes con cortes, para que siempre puedas decidir cual es tu mejor perfil</p>
                 <a class="boton boton--primario" href="entrada.html">Leer mas</a>
             </div>
           </article>
-          <article></article>  <!-- crear 2 article: 
+          <article class="entrada">
+            <div class="entrada__imagen">
+                <img class="img-entrada" src="/img/img2.jpg" alt="">
+            </div>
+            <div class="entrada__contenido">
+                <h4>Recorte y emprolijamiento de barba</h4>
+                <p>Cuida la forma de tu rostro sin dudar de la calidad</p>
+                <a class="boton boton--primario" href="entrada.html">Leer mas</a>
+            </div>
+          </article>  <!-- crear 2 article: 
 
             el primero debe contener lo siguiente:
             -la clase es "entrada"
