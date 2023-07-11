@@ -80,6 +80,12 @@ img {
 /*!!!!---- Desde aqui hasta abajo, debes crear el codigo!!! !!!!!*/
 
 /** Header **/
+/* crea la clase header: dale una imagen de fondo usando el banner-barberia.
+su altura sera de 60rem. Agrega luego este codigo:
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center; */
+
 .header{
     background-image: url(/img/banner-barberia.jpg);
     height: 60rem;
@@ -88,20 +94,27 @@ img {
     background-position: center center; 
 }
 
-/* crea la clase header: dale una imagen de fondo usando el banner-barberia.
-su altura sera de 60rem. Agrega luego este codigo:
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;   */
+
 
 /* crea la clase header__texto: alinea el texto al centro, dale el color a las letras usando la variable (--blanco), y con un margin-top de 15rem*/
-
+.header_texto{
+    text-align: center;
+    color: var(--blanco);
+    margin-top: 15rem;
+}
 
 /* crea la clase barra: agregale un display del tipo flex, alinea los items en el centro, y justifica el contenido con un space-between. agrega un padding-top de 4rem*/
-
+.barra{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding-top: 4rem;
+}
 
 /*crea la clase logo: dale el color blanco a las letras, usando la variable --blanco*/
-
+.logo{
+    color: var(--blanco);
+}
 
 .logo__nombre {
     font-weight: 400;

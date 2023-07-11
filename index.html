@@ -35,10 +35,20 @@
         </div>
     </header><!-- aqui deberia cerrar tu header-->
 
-    <div> <!-- darle a este div la clase "contenedor contenedor-principal" -->
-        <!-- crear el main, con la clase blog -->
+    <div class="contenedor contenedor-principal"> <!-- darle a este div la clase "contenedor contenedor-principal" -->
+      <main class="blog">  <!-- crear el main, con la clase blog -->
             <h3>Nuestras Habilidades</h3> <!-- coloca este h3 debajo del main -->
-            <!-- crear 2 article: 
+          <article class="entrada">
+            <div class="entrada-imagen">
+                <img class="img-entrada" src="/img/img1.jpg" alt="">
+            </div>
+            <div class="entrada-contenido">
+                <h4>Cortes de cabello</h4>
+                <p>Tenemos un amplio catalogo de imagenes con cortes, para que siempre puedas decidir cual es tu mejor perfil</p>
+                <a class="boton boton--primario" href="entrada.html">Leer mas</a>
+            </div>
+          </article>
+          <article></article>  <!-- crear 2 article: 
 
             el primero debe contener lo siguiente:
             -la clase es "entrada"
@@ -57,7 +67,7 @@
             3-una etiqueta "a" que nos envia a "entrada.html" , y su clase es "boton boton--primario" , y su texto es "Leer mas"
                     -->
 
-        <!-- aqui deberia estar la etiqueta de cierre de tu main-->
+    </main>  <!-- aqui deberia estar la etiqueta de cierre de tu main-->
 
 
         <aside> <!-- dale la clase sidebar a este aside-->
