@@ -2,12 +2,18 @@
     /* deja estas variables sin cambiar*/
     --fuenteHeading: 'PT Sans', sans-serif;
     --fuenteParrafos: 'Open Sans', sans-serif;
+    
 
     /*? crea las variables: 
     --blanco: dale el color blanco
     --gris: dale un color gris (puedes usar este codigo #a7a5a5) 
     --negro: dale el color negro
     --primario: dale un color a tu gusto!!! */
+    --blanco:white;
+    --gris:#a7a5a5;
+    --negro:black;
+    --primario:red;
+    --secundario:rgb(216, 56, 56);
 
 }
 
@@ -74,6 +80,14 @@ img {
 /*!!!!---- Desde aqui hasta abajo, debes crear el codigo!!! !!!!!*/
 
 /** Header **/
+.header{
+    background-image: url(/img/banner-barberia.jpg);
+    height: 60rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center; 
+}
+
 /* crea la clase header: dale una imagen de fondo usando el banner-barberia.
 su altura sera de 60rem. Agrega luego este codigo:
     background-size: cover;
