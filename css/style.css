@@ -39,6 +39,7 @@ html {
 
 body {
     font-family: var(--fuenteParrafos);
+    background-color: rgb(241, 181, 181);
     font-size: 1.6rem;
     line-height: 2;
 }
@@ -93,7 +94,6 @@ su altura sera de 60rem. Agrega luego este codigo:
     background-repeat: no-repeat;
     background-position: center center; 
 }
-
 
 
 /* crea la clase header__texto: alinea el texto al centro, dale el color a las letras usando la variable (--blanco), y con un margin-top de 15rem*/
@@ -165,18 +165,40 @@ font-weight: 700;
 margin-bottom: 2rem;
 border: none;
 */
+.boton{
+    display: inline-block;
+    font-family: var(--fuenteHeading);
+    color: var(--blanco);
+    text-align: center;
+    font-size: 1.8rem;
+    padding: 1rem 3rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    border: none;
+}
 
+
+@keyframes perspectiva{
+    from{transform: perspective(150px)rotate(0);}
+    to{transform: perspective(150px)rotate(180deg);}
+}
 
 .boton:hover {
     cursor: pointer;
+    animation: perspectiva 2s infinite;
     /* AÑADE UN EFECTO A TU GUSTO (USANDO UN @KEYFRAMES u otros)*/
 }
 
 
 /*crea la clase boton--primario: dale un color de fondo usando tu color --negro*/
-
+.boton--primario{
+    background-color: var(--negro);
+}
 /*crea la clase boton--secundario: dale un color de fondo usando tu color --secundario*/
-
+.boton--secundario{
+    background-color: var(--secundario);
+}
 .cursos {
     list-style: none;
 }
@@ -202,7 +224,11 @@ border: none;
 }
 
 /*Crea la clase footer: dale un fondo usando la variable negro, un padding-bottom de 3rem y un margin superior de 4rem*/
-
+footer{
+    background-color: var(--negro);
+    padding-bottom: 3rem;
+    margin-top: 4rem;
+}
 
 /** Sobre Nosotros **/
 /* crea la clase sobre-nosotros: dale un display del tipo grid, y usa el template columns con un repeat de (2,1fr), crea el column gap de 2rem*/
