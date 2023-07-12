@@ -39,7 +39,7 @@ html {
 
 body {
     font-family: var(--fuenteParrafos);
-    background-color: rgb(241, 181, 181);
+    background-image: linear-gradient(to right, rgb(241, 181, 181),rgb(133, 114, 114));
     font-size: 1.6rem;
     line-height: 2;
 }
