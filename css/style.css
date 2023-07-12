@@ -232,7 +232,11 @@ footer{
 
 /** Sobre Nosotros **/
 /* crea la clase sobre-nosotros: dale un display del tipo grid, y usa el template columns con un repeat de (2,1fr), crea el column gap de 2rem*/
-
+.sobre-nosotros{
+    display: grid;
+    grid-template-columns: 2fr 1fr ;
+    column-gap: 2rem;
+}
 
 /** Cursos **/
 /* crea la clase curso: dale un display grid, con un template columns de 1fr y 2fr, un gap de 2rem, y un border-bottom de 1 px solid con el color de tu variable --gris.
