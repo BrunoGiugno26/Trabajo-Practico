@@ -269,10 +269,20 @@ padding: 3rem 0;
 /** Contacto **/
 /* cre la clase contacto-bg: dale la imagen de fondo usando la imagen sobre-nosotros (averigua como usar el metodo url() para poner una imagen en css)
 dale una altura de 40rem, un background-size cover y background-repeat que sea no-repeat */
-
+.contacto-gb{
+    background-image: url(/img/sobre-nosotros.jpg);
+    height: 40rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 /* crea la clase formulario: dale un fondo con la variable --blanco, un margin de: -5rem auto 0 auto
 agrega que su ancho sea del 95% y que el padding sea de 5rem*/
-
+.formulario{
+    background-color: var(--blanco);
+    margin: -5rem auto 0 auto;
+    width: 95%;
+    padding: 5rem;
+}
 .campo {
     display: flex;
     margin-bottom: 2rem;
