@@ -305,3 +305,32 @@ agrega que su ancho sea del 95% y que el padding sea de 5rem*/
 }
 
 /*PUNTOS EXTRA: podes crear tus propios estilos y tambien usar @keyframes para darle efecto a la pagina!!!*/
+
+@keyframes escalar{
+    100%{transform: scale(1.2);}
+}
+
+.navegacion_enlace:hover{
+    animation: escalar 2s infinite;
+}
+
+@keyframes colores{
+    0%{color: var(--blanco);}
+    25%{color: var(--gris);}
+    50%{color: rgb(133, 114, 114);}
+    75%{color: var(--secundario);}
+    100%{color: rgb(241, 181, 181);}
+}
+
+#h2-animacion{
+    animation: colores 4s infinite;
+}
+
+@keyframes perspectiva{
+    from{transform: perspective(150px)rotateX(0);}
+    to{transform: perspective(150px)rotateX(-180deg);}
+}
+
+.logo__nombre:hover{
+    animation: perspectiva 5s infinite;
+}
