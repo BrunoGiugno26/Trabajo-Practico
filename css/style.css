@@ -243,7 +243,13 @@ footer{
 por ultimo, agrega esta linea: 
 padding: 3rem 0; 
 */
-
+.curso{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 2rem;
+    border-bottom: 1px solid var(--gris);
+    padding: 3rem 0;
+}
 
 .curso:last-of-type {
    border: none;
